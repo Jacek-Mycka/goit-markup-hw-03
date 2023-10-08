@@ -1,0 +1,213 @@
+:root {
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --navy-blue-color: #2e2f42;
+  --green-color: #31d0aa;
+  --slate-color: #434455;
+  --light-slate-color: #8e8f99;
+  --cornflower-color: #e7e9fc;
+  --cloud-color: #f4f4fd;
+  --navy-blue-modal-color: #2e2f4266;
+  --grey-color: #2e2f42b2;
+  --white-color: #ffffff;
+  --dairy-color: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate-color);
+  background-color: var(--white-color);
+}
+
+.background-navigation {
+  background-color: var(--white-color);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--iris-color);
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.navigation-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--navy-blue-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--ocean-color);
+}
+
+.contact-company {
+  font-style: normal;
+}
+
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--slate-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean-color);
+}
+
+.hero {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.0714285714285714;
+  letter-spacing: 1.12px;
+  background-color: var(--navy-blue-color);
+}
+
+.hero-header {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  color: var(--white-color);
+  background-color: var(--iris-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--white-color);
+  background-color: var(--ocean-color);
+}
+
+.smaller-headline {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+}
+
+.bigger-headline {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navy-blue-color);
+}
+
+/*.background-section-3 {
+  background-color: var(--white-color);
+} */
+
+.team-section-background {
+  background-color: var(--cloud-color);
+}
+
+.card-color {
+  background-color: var(--white-color);
+}
+
+.team-presentation {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1111111111111112;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.image-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+}
+
+.caption-secondary {
+  color: var(--slate-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-logo {
+  color: var(--iris-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.primary-color {
+  color: var(--navy-blue-color);
+}
+
+.secondary-color {
+  color: var(--cloud-color);
+}
+
+.footer-attributes {
+  background-color: var(--navy-blue-color);
+}
+
+.slogan {
+  color: var(--cloud-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  color: var(--iris-color);
+  background-color: var(--cloud-color);
+  border: 1px solid var(--cornflower-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white-color);
+  background-color: var(--ocean-color);
+}
