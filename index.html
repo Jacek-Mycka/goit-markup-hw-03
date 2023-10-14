@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,168 +20,183 @@
     />
   </head>
   <body>
-    <header class="background-navigation">
-      <nav>
-        <a href="./index.html" class="logo link"
-          >Web<span class="primary-color">Studio</span></a
-        >
-        <ul class="list">
-          <li>
-            <a href="./index.html" class="navigation-link link">Studio</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="navigation-link link"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a href="" class="navigation-link link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="contact-company">
-        <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="address-link link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="address-link link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header>
+      <div class="container display-method-1">
+        <nav>
+          <a href="./index.html" class="logo link"
+            >Web<span class="primary-color">Studio</span></a
+          >
+          <ul class="list display-method-2">
+            <li>
+              <a href="./index.html" class="navigation-link link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="navigation-link link"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="" class="navigation-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contact-company">
+          <ul class="list display-method-2">
+            <li>
+              <a href="mailto:info@devstudio.com" class="address-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="address-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
+
     <main>
       <!-- section 1 - Effective Solutions for Your Business -->
-      <section class="hero">
-        <h1 class="hero-header">
-          Effective Solutions <br />
-          for Your Business
-        </h1>
-        <button type="button" class="hero-button">Order Service</button>
+      <section class="section hero">
+        <div class="container">
+          <h1 class="hero-header">
+            Effective Solutions <br />
+            for Your Business
+          </h1>
+          <button type="button" class="hero-button">Order Service</button>
+        </div>
       </section>
       <!-- section 2 - our advantages -->
-      <section>
-        <h2 class="smaller-headline">Our advantages</h2>
-        <ul class="list">
-          <li>
-            <h3 class="image-caption">Strategy</h3>
-            <p class="caption-secondary">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="image-caption">Punctuality</h3>
-            <p class="caption-secondary">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="image-caption">Diligence</h3>
-            <p class="caption-secondary">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="image-caption">Technologies</h3>
-            <p class="caption-secondary">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h2 class="visually-hidden">Our advantages</h2>
+          <ul class="list display-method-3">
+            <li>
+              <h3 class="image-caption">Strategy</h3>
+              <p class="caption-secondary">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li>
+              <h3 class="image-caption">Punctuality</h3>
+              <p class="caption-secondary">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li>
+              <h3 class="image-caption">Diligence</h3>
+              <p class="caption-secondary">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li>
+              <h3 class="image-caption">Technologies</h3>
+              <p class="caption-secondary">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
+
       <!-- section 3 - What are we doing -->
-      <section>
-        <h2 class="bigger-headline">What are we doing</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/studio/img1.jpg"
-              alt="computer monitor"
-              width="360"
-              height="300"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/studio/img2.jpg"
-              alt="High fidelity wireframe"
-              width="360"
-              height="300"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/studio/img3.jpg"
-              alt="smartphone"
-              width="360"
-              height="300"
-            />
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h2 class="bigger-headline">What are we doing</h2>
+          <ul class="list display-method-3 item">
+            <li class="item">
+              <img
+                src="./images/studio/img1.jpg"
+                alt="computer monitor"
+                width="360"
+                height="300"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="./images/studio/img2.jpg"
+                alt="High fidelity wireframe"
+                width="360"
+                height="300"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="./images/studio/img3.jpg"
+                alt="smartphone"
+                width="360"
+                height="300"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
+
       <!-- section 4 - Our Team -->
-      <section class="team-section-background">
-        <h2 class="bigger-headline">Our Team</h2>
-        <ul class="list">
-          <li class="card-color">
-            <img
-              src="./images/studio/img4.jpg"
-              alt="man in a blue shirt with short stubble"
-              width="264"
-              height="260"
-            />
-            <h3 class="image-caption">Mark Guerrero</h3>
-            <p class="caption-secondary">Product Designer</p>
-          </li>
-          <li class="card-color">
-            <img
-              src="./images/studio/img5.jpg"
-              alt="smiling young man in a blue shirt with stubble and a cool hairstyle"
-              width="264"
-              height="260"
-            />
-            <h3 class="image-caption">Tom Ford</h3>
-            <p class="caption-secondary">Frontend Developer</p>
-          </li>
-          <li class="card-color">
-            <img
-              src="./images/studio/img6.jpg"
-              alt="pretty girl with dark long hair, nice makeup, wearing a pink sweater"
-              width="264"
-              height="260"
-            />
-            <h3 class="image-caption">Camila Garcia</h3>
-            <p class="caption-secondary">Marketing</p>
-          </li>
-          <li class="card-color">
-            <img
-              src="./images/studio/img7.jpg"
-              alt="a nice, smiling young man in a gray shirt and dark hair"
-              width="264"
-              height="260"
-            />
-            <h3 class="image-caption">Daniel Wilson</h3>
-            <p class="caption-secondary">UI Designer</p>
-          </li>
-        </ul>
+      <section class="section team-section-background">
+        <div class="container">
+          <h2 class="bigger-headline">Our Team</h2>
+          <ul class="list display-method-3">
+            <li class="card-color">
+              <img
+                src="./images/studio/img4.jpg"
+                alt="man in a blue shirt with short stubble"
+                width="264"
+                height="260"
+              />
+              <h3 class="image-caption">Mark Guerrero</h3>
+              <p class="caption-secondary">Product Designer</p>
+            </li>
+            <li class="card-color">
+              <img
+                src="./images/studio/img5.jpg"
+                alt="smiling young man in a blue shirt with stubble and a cool hairstyle"
+                width="264"
+                height="260"
+              />
+              <h3 class="image-caption">Tom Ford</h3>
+              <p class="caption-secondary">Frontend Developer</p>
+            </li>
+            <li class="card-color">
+              <img
+                src="./images/studio/img6.jpg"
+                alt="pretty girl with dark long hair, nice makeup, wearing a pink sweater"
+                width="264"
+                height="260"
+              />
+              <h3 class="image-caption">Camila Garcia</h3>
+              <p class="caption-secondary">Marketing</p>
+            </li>
+            <li class="card-color">
+              <img
+                src="./images/studio/img7.jpg"
+                alt="a nice, smiling young man in a gray shirt and dark hair"
+                width="264"
+                height="260"
+              />
+              <h3 class="image-caption">Daniel Wilson</h3>
+              <p class="caption-secondary">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer-attributes">
-      <a href="./index.html" class="logo footer-logo link"
-        >Web<span class="secondary-color">Studio</span></a
-      >
-      <p class="slogan">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a href="./index.html" class="logo footer-logo link"
+          >Web<span class="secondary-color">Studio</span></a
+        >
+        <p class="slogan">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
