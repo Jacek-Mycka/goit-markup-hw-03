@@ -71,31 +71,18 @@ body {
   border: 2px solid #00ff00;
 }
 
-.display-method-1 {
-  width: auto;
+.nav-container {
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 0;
-  margin: 0 auto;
 }
 
-.display-method-2 {
+.nav-list {
   display: inline-flex;
 }
 
-.display-method-3 {
+.list-section-2-3-4  {
   display: inline-flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 24px;
-  border: 1px dashed #0718fd;
-}
-
-.display-method-3 {
-  display: inline-flex;
-  flex-direction: row;
-  align-items: flex-start;
   gap: 24px;
   border: 1px dashed #0718fd;
 }
@@ -111,7 +98,7 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-  white-space: nowrap;
+  white-space: nnavowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -134,14 +121,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 24px 0;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.link-list {
-  padding-right: 40px;
+  gap: 40px;
 }
 
 .navigation-link {
@@ -161,7 +141,7 @@ body {
 .contact-company {
   font-style: normal;
   padding: 0;
-  margin: 0 40px 0 332px;
+  margin-left:  332px;
 }
 
 .address-link {
@@ -176,8 +156,6 @@ body {
 .address-link:focus {
   color: var(--ocean-color);
 }
-
-
 
 /* hero */
 .hero {
@@ -328,4 +306,3 @@ body {
   display: flex;
   margin: 96px 0 72px 0;
   gap: 24px;
-}
