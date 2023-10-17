@@ -60,7 +60,7 @@ body {
   max-width: 1128px;
   margin: 0 auto;
   padding: 15px 0;
-  border: 2px solid #ff0000;
+  border: 2px dashed #ff0000;
 }
 
 .section {
@@ -72,20 +72,25 @@ body {
 }
 
 .nav-container {
+  width: 1440px;
   display: flex;
   align-items: center;
   padding: 0;
 }
 
-.nav-list {
-  display: inline-flex;
+.nav-item {
+width: 1440px;
+  max-width: 1440px;
+  border-bottom: 1px solid var(--cornflower-color);
+  margin: 0 auto;
 }
 
-.list-section-2-3-4  {
+.nav-list {
   display: inline-flex;
-  gap: 24px;
-  border: 1px dashed #0718fd;
+  gap: 40px;
 }
+
+
 
 .item {
   flex-basis: calc((100% - 24px) / 3);
@@ -124,6 +129,24 @@ body {
   gap: 40px;
 }
 
+.section-list-2 {
+  display: inline-flex;
+  gap: 24px;
+
+}
+
+.section-list-4 {
+  display: inline-flex;
+  gap: 24px;
+
+}
+
+.section-list-3 {
+  display: inline-flex;
+  gap: 24px;
+
+}
+
 .navigation-link {
   font-size: 16px;
   font-weight: 500;
@@ -137,6 +160,7 @@ body {
 .navigation-link:focus {
   color: var(--ocean-color);
 }
+
 
 .contact-company {
   font-style: normal;
@@ -157,6 +181,8 @@ body {
   color: var(--ocean-color);
 }
 
+
+
 /* hero */
 .hero {
   color: var(--white-color);
@@ -169,6 +195,7 @@ body {
   padding: 0;
   margin: 0 auto;
 }
+
 
 .hero-header {
   color: var(--white-color);
@@ -236,20 +263,32 @@ body {
   text-transform: capitalize;
 }
 
-.image-caption {
+.our-advantages {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
+  margin: 0 0 8px 0;
+
 }
 
-.caption-secondary {
+.advantages-description {
   color: var(--slate-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 0;
 }
+
+/* .lid {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+} */
+
 
 .footer-logo {
   color: var(--iris-color);
@@ -274,7 +313,7 @@ body {
   background-color: var(--navy-blue-color);
 }
 
-.slogan {
+.description {
   color: var(--cloud-color);
   font-size: 16px;
   line-height: 1.5;
@@ -306,3 +345,4 @@ body {
   display: flex;
   margin: 96px 0 72px 0;
   gap: 24px;
+}
