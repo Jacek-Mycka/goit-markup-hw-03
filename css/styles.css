@@ -140,8 +140,6 @@ header {
 }
 
 .list-4 {
-  display: flex;
-  gap: 24px;
   margin-top: -15px;
 }
 
