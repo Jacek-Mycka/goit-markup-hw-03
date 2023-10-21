@@ -134,7 +134,7 @@ header {
 }
 
 .list-3 {
-  display: inline-flex;
+  display: flex;
   gap: 24px;
 }
 
@@ -240,6 +240,7 @@ header {
   text-align: center;
   text-transform: capitalize;
   color: var(--navy-blue-color);
+  margin-bottom: 72px;
 }
 
 .team-section-background {
