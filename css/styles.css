@@ -50,6 +50,10 @@ body {
   background-color: var(--white-color);
 }
 
+header {
+  border-bottom: 1px solid var(--cornflower-color);
+}
+
 .container {
   width: 1128px;
   max-width: 1128px;
@@ -74,7 +78,6 @@ body {
 .nav-item {
   width: 1440px;
   max-width: 1440px;
-  border-bottom: 1px solid var(--cornflower-color);
   margin: 0 auto;
 }
 
