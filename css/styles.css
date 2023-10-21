@@ -347,6 +347,7 @@ body {
 }
 
 .project-card-image {
+  display: block;
   position: relative;
   z-index: 1;
 }
