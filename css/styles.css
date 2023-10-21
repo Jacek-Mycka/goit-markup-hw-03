@@ -60,7 +60,6 @@ body {
   max-width: 1128px;
   margin: 0 auto;
   padding: 15px 0;
-  border: 2px dashed #ff0000;
 }
 
 .section {
@@ -68,7 +67,6 @@ body {
   max-width: 1440px;
   padding: 120px 0;
   margin: 0 auto;
-  border: 2px solid #00ff00;
 }
 
 .nav-container {
@@ -79,7 +77,7 @@ body {
 }
 
 .nav-item {
-width: 1440px;
+  width: 1440px;
   max-width: 1440px;
   border-bottom: 1px solid var(--cornflower-color);
   margin: 0 auto;
@@ -89,8 +87,6 @@ width: 1440px;
   display: inline-flex;
   gap: 40px;
 }
-
-
 
 .item {
   flex-basis: calc((100% - 24px) / 3);
@@ -129,22 +125,22 @@ width: 1440px;
   gap: 40px;
 }
 
-.section-list-2 {
+.list-2 {
   display: inline-flex;
-  gap: 24px;
-
+  flex-wrap: wrap;
+  gap: 0 24px;
+  margin-block-start: 0;
 }
 
-.section-list-4 {
+.list-3 {
   display: inline-flex;
   gap: 24px;
-
 }
 
-.section-list-3 {
+.list-4 {
   display: inline-flex;
   gap: 24px;
-
+  margin-top: -15px;
 }
 
 .navigation-link {
@@ -161,11 +157,10 @@ width: 1440px;
   color: var(--ocean-color);
 }
 
-
 .contact-company {
   font-style: normal;
   padding: 0;
-  margin-left:  332px;
+  margin-left: 332px;
 }
 
 .address-link {
@@ -181,8 +176,6 @@ width: 1440px;
   color: var(--ocean-color);
 }
 
-
-
 /* hero */
 .hero {
   color: var(--white-color);
@@ -195,7 +188,6 @@ width: 1440px;
   padding: 0;
   margin: 0 auto;
 }
-
 
 .hero-header {
   color: var(--white-color);
@@ -270,7 +262,6 @@ width: 1440px;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
   margin: 0 0 8px 0;
-
 }
 
 .advantages-description {
@@ -288,7 +279,6 @@ width: 1440px;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
 } */
-
 
 .footer-logo {
   color: var(--iris-color);
@@ -343,6 +333,28 @@ width: 1440px;
 
 .filter-list {
   display: flex;
+  justify-content: center;
   margin: 96px 0 72px 0;
   gap: 24px;
+  margin: -24px 0 48px;
+}
+
+.project-card {
+  display: flex;
+  margin-bottom: 48px;
+  outline: solid 1px var(--cornflower-color);
+  outline-offset: -1px;
+}
+
+.project-card-image {
+  position: relative;
+  z-index: 1;
+}
+
+.project-card h2 {
+  margin: 32px 0 0 16px;
+}
+
+.project-card p {
+  margin: 8px 0 32px 16px;
 }
