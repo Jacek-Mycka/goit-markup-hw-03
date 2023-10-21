@@ -203,7 +203,7 @@ header {
 
 .hero-button {
   display: block;
-  min-width: 196px;
+  min-width: 169px;
   color: var(--white-color);
   background-color: var(--iris-color);
   font-size: 16px;
