@@ -139,7 +139,7 @@ header {
 }
 
 .list-4 {
-  display: inline-flex;
+  display: flex;
   gap: 24px;
   margin-top: -15px;
 }
@@ -259,6 +259,10 @@ header {
   text-transform: capitalize;
 }
 
+.advantages-list {
+  width: calc((100% - 72px) / 4);
+}
+
 .our-advantages {
   font-weight: 500;
   font-size: 20px;
@@ -275,14 +279,6 @@ header {
   letter-spacing: 0.02em;
   margin: 0;
 }
-
-/* .lid {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue-color);
-} */
 
 .footer-logo {
   color: var(--iris-color);
