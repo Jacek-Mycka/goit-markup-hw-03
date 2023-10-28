@@ -256,8 +256,18 @@ header {
   border-radius: 0px 0px 4px 4px;
 }
 
-card-caption {
-  padding: 32px 0px;
+.card-caption {
+  margin: 32px 0;
+}
+
+h3.employee-name {
+  padding: 0;
+ margin-bottom: 8px;
+}
+
+p.employee-specialization {
+  padding: 0;
+  margin: 0;
 }
 
 .team-presentation {
@@ -347,18 +357,6 @@ color: var(--IRIS, #4D5AE5);
   margin: -24px 0 48px;
 }
 
-.project-card {
-  display: flex;
-  margin-bottom: 48px;
-  outline: solid 1px var(--cornflower-color);
-  outline-offset: -1px;
-}
-
-.project-card-image {
-  display: block;
-  position: relative;
-  z-index: 1;
-}
 
 .employee-name {
   text-align: center;
