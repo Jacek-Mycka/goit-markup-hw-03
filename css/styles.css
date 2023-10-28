@@ -257,7 +257,7 @@ header {
 }
 
 .card-caption {
-  margin: 32px 0;
+padding: 32px 0;
 }
 
 h3.employee-name {
