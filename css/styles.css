@@ -367,3 +367,7 @@ color: var(--IRIS, #4D5AE5);
 .employee-specialization {
   text-align: center;
 }
+
+img {
+display: block;
+}
