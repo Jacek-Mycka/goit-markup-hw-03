@@ -258,11 +258,12 @@ header {
 
 .card-caption {
 padding: 32px 0;
+margin: 0;
 }
 
 h3.employee-name {
   padding: 0;
- margin-bottom: 8px;
+ margin: 0 0 8px 0;
 }
 
 p.employee-specialization {
