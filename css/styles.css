@@ -214,9 +214,9 @@ header {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.0;
+  line-height: 1;
   letter-spacing: 0.02em;
-   margin: 0 auto 48px;
+  margin: 0 auto 48px;
 }
 
 .hero-button {
@@ -322,8 +322,11 @@ p.employee-specialization {
 }
 
 .footer-attributes {
+width: 1440px;
+max-width: 1440px;
   background-color: var(--navy-blue-color);
-  padding: 100px 0;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .footer-link {
@@ -341,6 +344,7 @@ p.employee-specialization {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 0;
   margin: 0;
 }
 
@@ -409,7 +413,6 @@ img {
 
 .application-name {
   color: var(--NAVY-BLUE, #2e2f42);
-
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
