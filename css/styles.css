@@ -142,10 +142,6 @@ header {
   flex-basis: calc((100% - 48px) / 4);
 }
 
-.team-list {
-  flex-basis: calc((100% - 48px) / 4);
-}
-
 .image-list {
   display: flex;
   flex-wrap: wrap;
@@ -155,9 +151,7 @@ header {
   margin-block-start: 0;
   list-style: none;
 }
-.imga {
-  flex-basis: calc((100% - 48px) / 3);
-}
+
 .list-3 {
   display: flex;
   gap: 24px;
@@ -270,9 +264,10 @@ header {
   background-color: var(--cloud-color);
 }
 
-.card-attributes {
+.team-list {
   background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 48px) / 4);
 }
 
 .card-caption {
