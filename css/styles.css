@@ -110,7 +110,7 @@ body {
 .navigation-link:focus {
   color: var(--ocean-color);
 }
-.address-items {
+.contact-list {
   display: flex;
   list-style: none;
   font-style: normal;
@@ -119,16 +119,16 @@ body {
   padding: 24px 0;
 }
 
-.address-list:first-child {
+.contact-item:first-child {
   margin-left: 329px;
   margin-right: 40px;
 }
 
-.address-list:last-child {
+.contact-item:last-child {
   margin-right: 0;
 }
 
-.address-link {
+.contact-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -138,8 +138,8 @@ body {
   padding: 24px 0;
 }
 
-.address-link:hover,
-.address-link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--ocean-color);
 }
 
