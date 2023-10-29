@@ -70,14 +70,13 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-   margin-right: 76px;
+  margin-right: 76px;
   color: var(--iris-color);
 }
 
 .header-logo-color {
   color: var(--navy-blue-color);
-  margin:0;
-
+  margin: 0;
 }
 
 .menu-items {
@@ -97,6 +96,20 @@ body {
   margin-right: 0;
 }
 
+.navigation-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--navy-blue-color);
+  padding: 24px 0;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--ocean-color);
+}
 .address-items {
   display: flex;
   list-style: none;
@@ -115,18 +128,18 @@ body {
   margin-right: 0;
 }
 
-.navigation-link {
+.address-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--navy-blue-color);
-
+  padding: 24px 0;
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--ocean-color);
 }
 
