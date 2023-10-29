@@ -84,7 +84,7 @@ header {
 .nav-item {
   width: 1440px;
   max-width: 1440px;
-  margin: 0 auto;drugi człon loga
+  margin: 0 auto;
 }
 
 .nav-list {
@@ -116,10 +116,9 @@ header {
   text-transform: uppercase;
   margin-right: 76px;
   color: var(--iris-color);
-
 }
 
-.header-logo-color{
+.header-logo-color {
   color: var(--navy-blue-color);
 }
 
@@ -136,24 +135,27 @@ header {
 }
 
 .list-item {
-  flex-basis: calc((100% - 24px) / 2);
+  flex-basis: calc((100% - 24px) / 3);
 }
 
-.list-team {
-  flex-basis: calc((100% - 24px) / 3);
+.list-of-advantages {
+  flex-basis: calc((100% - 24px) / 4);
+}
+
+.team-list {
+  flex-basis: calc((100% - 24px) / 4);
 }
 
 .image-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48px; 
+  row-gap: 48px;
   padding: 0;
   margin-block-start: 0;
   list-style: none;
-  flex-basis: calc((100% - 24px) / 2);
-  
-  }
+  flex-basis: calc((100% - 24px) / 3);
+}
 
 .list-3 {
   display: flex;
@@ -273,13 +275,13 @@ header {
 }
 
 .card-caption {
-padding: 32px 0;
-margin: 0;
+  padding: 32px 0;
+  margin: 0;
 }
 
 h3.employee-name {
   padding: 0;
- margin: 0 0 8px 0;
+  margin: 0 0 8px 0;
 }
 
 p.employee-specialization {
@@ -318,8 +320,7 @@ p.employee-specialization {
 }
 
 .footer-logo-a {
-color: var(--IRIS, #4D5AE5);
-
+  color: var(--IRIS, #4d5ae5);
 }
 
 .footer-attributes {
@@ -374,12 +375,10 @@ color: var(--IRIS, #4D5AE5);
   border: 1px solid transparent;
 }
 
-
-
 .employee-name {
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
- 
+
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
@@ -391,37 +390,34 @@ color: var(--IRIS, #4D5AE5);
 
 .employee-specialization {
   color: var(--SLATE, #434455);
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5; 
-letter-spacing: 0.32px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 img {
-display: block;
+  display: block;
 }
-
-
 
 .application-name-and-category {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc; 
+  border: 1px solid #e7e9fc;
   border-top: none;
-
 }
 
 .application-name {
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: var(--NAVY-BLUE, #2e2f42);
 
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.2; 
-letter-spacing: 0.4px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
   padding: 0;
   margin: 0 0 8px 0;
 }
@@ -432,7 +428,7 @@ letter-spacing: 0.4px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5; 
+  line-height: 1.5;
   letter-spacing: 0.32px;
   padding: 0;
   margin: 0;
