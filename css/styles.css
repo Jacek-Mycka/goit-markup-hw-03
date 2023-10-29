@@ -70,24 +70,23 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-right: 76px;
+   margin-right: 76px;
   color: var(--iris-color);
 }
 
 .header-logo-color {
   color: var(--navy-blue-color);
+  margin:0;
+
 }
 
 .menu-items {
   display: flex;
   list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate-color);
   font-style: normal;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 24px 0;
 }
 
 .menu-list:nth-child(-n + 2) {
@@ -101,15 +100,14 @@ body {
 .address-items {
   display: flex;
   list-style: none;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate-color);
   font-style: normal;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 24px 0;
 }
 
 .address-list:first-child {
-  margin-left: 213px;
+  margin-left: 329px;
   margin-right: 40px;
 }
 
@@ -124,7 +122,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--navy-blue-color);
-  padding: 24px 0;
+
 }
 
 .navigation-link:hover,
