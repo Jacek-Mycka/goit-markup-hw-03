@@ -90,15 +90,18 @@ body {
   font-style: normal;
 }
 
-.menu-list {
+.menu-list:nth-child(-n + 2) {
   margin-right: 40px;
-
 }
 
-.menu-list-last-item {
+.menu-list:last-child {
+  margin-right: 0;
+}
+
+/* .menu-list-last-item {
   margin-right: 0;
  
-}
+} */
 
 .address-items {
   display: flex;
@@ -114,7 +117,6 @@ body {
 
 .address-list-last-item {
   margin-right: 0;
-  
 }
 
 .navigation-link {
