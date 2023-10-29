@@ -88,9 +88,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate-color);
   font-style: normal;
+  gap: 40px;
 }
 
-.menu-list {
+/* .menu-list {
   margin-right: 40px;
 
 }
@@ -98,7 +99,7 @@ body {
 .menu-list-last-item {
   margin-right: 0;
  
-}
+} */
 
 .address-items {
   display: flex;
@@ -107,13 +108,13 @@ body {
   padding: 0;
 }
 
-.address-list-first-aitem {
+/* .address-list-first-aitem {
   margin-right: 40px;
 }
 
 .address-list-last-item {
   margin-right: 0;
-}
+} */
 
 .navigation-link {
   font-size: 16px;
