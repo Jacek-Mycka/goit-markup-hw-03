@@ -136,6 +136,10 @@ header {
 }
 
 .list-item {
+  flex-basis: calc((100% - 24px) / 2);
+}
+
+.list-team {
   flex-basis: calc((100% - 24px) / 3);
 }
 
@@ -147,6 +151,8 @@ header {
   padding: 0;
   margin-block-start: 0;
   list-style: none;
+  flex-basis: calc((100% - 24px) / 2);
+  
   }
 
 .list-3 {
@@ -291,7 +297,7 @@ p.employee-specialization {
 }
 
 .advantages-list {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .our-advantages {
