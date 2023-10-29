@@ -322,10 +322,10 @@ p.employee-specialization {
 }
 
 .footer-attributes {
-width: 1440px;
-max-width: 1440px;
+  width: 1440px;
+  max-width: 1440px;
   background-color: var(--navy-blue-color);
-  padding: 0;
+  padding: 100px 0;
   margin: 0 auto;
 }
 
@@ -413,6 +413,7 @@ img {
 
 .application-name {
   color: var(--NAVY-BLUE, #2e2f42);
+
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
